@@ -1,0 +1,55 @@
+CLIENTES
+
+1. El sistema me debe permitir <Listar todos los clientes registrados>
+http://localhost:3004/clients
+
+2. El sistema me debe permitir <Ver detalles de un cliente por ID>
+http://localhost:3004/clients/id/:id
+
+3. El sistema me debe permitir <Crear un nuevo cliente>
+http://localhost:3004/clients
+
+4. El sistema me debe permitir <Actualizar un cliente por nombre>
+http://localhost:3004/clients/update/:name
+
+5. El sistema me debe permitir <Eliminar un cliente por ID>
+http://localhost:3004/clients/delete/:id
+
+6. El sistema me debe permitir <Ver detalles de un cliente por email>
+http://localhost:3004/clients/email/:email
+
+7. El sistema me debe permitir <Listar clientes por genero ya sea Masculino o femenino> se envía el género por parámetro.
+http://localhost:3004/clients/gender/:gender
+
+8. El sistema me debe permitir <Listar clientes por edad> se envía la edad por parámetro
+http://localhost:3004/clients/age/:age
+
+
+
+LIBROS
+
+1. El sistema me debe permitir <Listar todos los libros registrados>
+http://localhost:3004/books
+
+2. El sistema me debe permitir <Ver detalles de un libro por ID>
+http://localhost:3004/books/id/:id
+
+3. El sistema me debe permitir <Crear un nuevo libro>
+http://localhost:3004/books
+
+4. El sistema me debe permitir <Actualizar un libro por ID>
+http://localhost:3004/books/update/:name
+
+5. El sistema me debe permitir <Eliminar un libro por ID>
+http://localhost:3004/books/delete/:id
+
+6. El sistema me debe permitir <listar libros por author> se envía por parámetro el autor
+http://localhost:3004/books/author/:author
+
+7. El sistema me debe permitir <Filtrar por nombre del libro> se envía por parámetro el nombre del libro.
+http://localhost:3004/books/name/:name
+
+8. El sistema me debe permitir <Filtrar por cantidad de páginas> se envía por parámetro la cantidad de las páginas.
+http://localhost:3004/books/pages/:pages
+
+
